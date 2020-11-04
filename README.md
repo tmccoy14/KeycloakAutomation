@@ -24,3 +24,11 @@ re-run `pip install ...` locally.
 $ keycli --version
 API version: v0.1.0
 ```
+
+#### Configure Keycloak locally
+
+To run a Keycloak service locally, run the following command:
+
+```sh
+docker-compose up
+```
