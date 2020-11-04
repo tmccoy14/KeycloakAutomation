@@ -9,6 +9,11 @@ setup(
     author_email="distillery@afsdigital.studio",
     keywords="keycloak authentication automation python",
     packages=find_packages(exclude=["tests"]),
-    install_requires=["Click==7.0", "colorama==0.4.1", "python-keycloak==0.22.0"],
+    install_requires=[
+        "Click==7.0",
+        "colorama==0.4.1",
+        "python-keycloak==0.22.0",
+        "click-spinner==0.1.10",
+    ],
     entry_points={"console_scripts": ["keycloakcli=src.main:cli"]},
 )
